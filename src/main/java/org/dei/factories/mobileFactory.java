@@ -1,4 +1,4 @@
-package com.shidqiadiatma.factories;
+package org.dei.factories;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.appium.java_client.remote.AutomationName;
@@ -28,11 +28,11 @@ public class mobileFactory {
 
 
         if (platformType.equalsIgnoreCase("Emulator Android")) {
-            dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "12");
-            dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 6");
+            dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "14");
+            dc.setCapability(MobileCapabilityType.DEVICE_NAME, "Pixel 7");
         } else if (platformType.equalsIgnoreCase("Real Devices")) {
-            dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "13");
-            dc.setCapability(MobileCapabilityType.DEVICE_NAME, "RR8N2059SAE");
+            dc.setCapability(MobileCapabilityType.PLATFORM_VERSION, "11");
+            dc.setCapability(MobileCapabilityType.DEVICE_NAME, "POCO X3 NFC");
         }
         return new AndroidDriver(url, dc);
     }

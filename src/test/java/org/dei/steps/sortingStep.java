@@ -1,7 +1,7 @@
-package com.shidqiadiatma.steps;
+package org.dei.steps;
 
-import com.shidqiadiatma.factories.driverManager;
-import com.shidqiadiatma.pages.HomePage;
+import org.dei.factories.driverManager;
+import org.dei.pages.HomePage;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;

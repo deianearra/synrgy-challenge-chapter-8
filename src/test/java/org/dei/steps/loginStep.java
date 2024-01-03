@@ -1,11 +1,11 @@
-package com.shidqiadiatma.steps;
+package org.dei.steps;
 
-import com.shidqiadiatma.factories.driverManager;
+import org.dei.factories.driverManager;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.shidqiadiatma.pages.HomePage;
-import com.shidqiadiatma.pages.LoginPage;
+import org.dei.pages.HomePage;
+import org.dei.pages.LoginPage;
 
 public class loginStep {
 

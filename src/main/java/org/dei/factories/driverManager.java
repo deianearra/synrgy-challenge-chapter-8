@@ -1,4 +1,4 @@
-package com.shidqiadiatma.factories;
+package org.dei.factories;
 
 import io.appium.java_client.android.AndroidDriver;
 

@@ -1,8 +1,8 @@
-package com.shidqiadiatma.pages;
+package org.dei.pages;
 
-import com.shidqiadiatma.helpers.enums.direction;
-import com.shidqiadiatma.helpers.keyword;
-import com.shidqiadiatma.helpers.randomData;
+import org.dei.helpers.enums.direction;
+import org.dei.helpers.keyword;
+import org.dei.helpers.randomData;
 import io.appium.java_client.AppiumDriver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;

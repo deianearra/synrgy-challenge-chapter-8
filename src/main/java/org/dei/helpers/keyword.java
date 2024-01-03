@@ -1,17 +1,20 @@
-package com.shidqiadiatma.helpers;
+package org.dei.helpers;
 
-import com.shidqiadiatma.helpers.enums.direction;
-import com.shidqiadiatma.factories.driverManager;
-import com.shidqiadiatma.helpers.enums.fileType;
 import io.appium.java_client.AppiumDriver;
-import org.openqa.selenium.*;
+import org.apache.commons.io.FileUtils;
+import org.dei.factories.driverManager;
+import org.dei.helpers.enums.direction;
+import org.dei.helpers.enums.fileType;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.Point;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.PointerInput;
 import org.openqa.selenium.interactions.Sequence;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.apache.commons.io.FileUtils;
-import org.openqa.selenium.TakesScreenshot;
 import org.testng.Assert;
+
 import java.io.File;
 import java.time.Duration;
 import java.util.Collections;

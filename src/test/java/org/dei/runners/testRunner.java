@@ -1,7 +1,7 @@
-package com.shidqiadiatma.runners;
+package org.dei.runners;
 
-import com.shidqiadiatma.factories.driverManager;
-import com.shidqiadiatma.factories.mobileFactory;
+import org.dei.factories.driverManager;
+import org.dei.factories.mobileFactory;
 import io.cucumber.testng.AbstractTestNGCucumberTests;
 import io.cucumber.testng.CucumberOptions;
 import org.testng.annotations.AfterMethod;
@@ -10,8 +10,8 @@ import org.testng.annotations.DataProvider;
 import java.net.MalformedURLException;
 
 @CucumberOptions(
-        features = "src/test/java/com/shidqiadiatma/features",
-        glue = "com.shidqiadiatma.steps",
+        features = "src/test/java/org/dei/features",
+        glue = "org.dei.steps",
         tags = "@sorting",
         plugin = {
                 "pretty",

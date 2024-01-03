@@ -1,4 +1,4 @@
-package com.shidqiadiatma.helpers;
+package org.dei.helpers;
 
 import com.github.javafaker.Faker;
 import org.openqa.selenium.WebElement;

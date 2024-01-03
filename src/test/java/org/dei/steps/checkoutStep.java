@@ -1,12 +1,12 @@
-package com.shidqiadiatma.steps;
+package org.dei.steps;
 
-import com.shidqiadiatma.factories.driverManager;
-import com.shidqiadiatma.helpers.randomData;
+import org.dei.factories.driverManager;
+import org.dei.helpers.randomData;
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
-import com.shidqiadiatma.pages.*;
+import org.dei.pages.*;
 public class checkoutStep {
 
     private final HomePage homePage;

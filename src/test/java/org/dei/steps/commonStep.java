@@ -1,12 +1,12 @@
-package com.shidqiadiatma.steps;
+package org.dei.steps;
 
 import io.appium.java_client.android.AndroidDriver;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
-import com.shidqiadiatma.factories.driverManager;
-import com.shidqiadiatma.helpers.keyword;
-import com.shidqiadiatma.pages.HomePage;
-import com.shidqiadiatma.pages.LoginPage;
+import org.dei.factories.driverManager;
+import org.dei.helpers.keyword;
+import org.dei.pages.HomePage;
+import org.dei.pages.LoginPage;
 
 public class commonStep {
 
